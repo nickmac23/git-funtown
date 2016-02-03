@@ -1,0 +1,43 @@
+#content{}
+
+#sidebar{
+  border: solid black 2px;
+  float: left;
+  clear: left;
+  height: 600px;
+  width: 150px;
+}
+#sidebar h3{
+  margin-left: 10px;
+}
+
+#main{
+  width: 700px;
+  display: inline-block;
+  margin-left: 20px;
+}
+#main h3{
+  margin-top: 0px;
+}
+
+.product{
+  border: solid black 1px;
+  float:left;
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+}
+
+#products{
+  margin-left: 20px;
+  height: 200px;
+  float: left;
+  display: inline-block;
+}
+#products{
+  
+}
+
+#products div:not(:first-child){
+  margin-left: 50px;
+}
